@@ -16,6 +16,7 @@
 * Client-server communication is flaky
 
 ### Link to meeting notes
+* https://bit.ly/cheffer
 
 ## Update #2
 
