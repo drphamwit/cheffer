@@ -15,6 +15,7 @@
 * Get server to work on Linux machines, but not Windows
 * Client-server communication is flaky
 
+### Link to meeting notes
 
 ## Update #2
 
@@ -25,4 +26,7 @@
 ...
 
 ### Any blocking issues/challenges need to be addressed?
+...
+
+### Link to meeting notes
 ...
