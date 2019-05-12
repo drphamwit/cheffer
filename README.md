@@ -52,7 +52,7 @@ Miscellaneous
 12.	Week 14: Wrap-up, prepare for the showcase
 13.	Week 15: Final push to team repo. Celebrate!!!
 
-## Team members (10 pts)
+## Team members
 
 * John Doe, Frontend Developer, Team Lead
 * Alex Max, Backend Developer, Tester
