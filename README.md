@@ -30,21 +30,47 @@ Miscellaneous
 ## Deliverables
 
 1.	Web app
-  *View Player Stats
-  **User can view different player stats. There will be a link the user clicks on and a pop up will showing the player stats
-  *Import Current Team
-  **User can import their current Fantasy Team and the app will show the user stats of their players and give them feedback
-  *Offense Focused
-  **For now we will stick with offense Focused Fantasy Leagues. The site will contain posistions: QB, RB,WR, TE, K, D
-  *Rate Trades
-  **User will be able to put in a player they have and input a player they are trading for. The app will give them feedback on the trade, show them the risks, and grade the trade on a letter grade
-  *Rate Add/Drop
-  **User will be able to put a player that they are either dropping from their team, a player they wish to add, or both. The app will give them feedback based on what action they do. (Similar to Rate Trades)
-  *Suggested Lineup
-  **The app will give advice on what players the user should start that week
+  * View Player Stats
+       * User can view different player stats. There will be a link the user clicks on and a pop up will showing the player stats
+  * Import Current Team
+       * User can import their current Fantasy Team and the app will show the user stats of their players and give them feedback
+  * Offense Focused
+       * For now we will stick with offense Focused Fantasy Leagues. The site will contain posistions: QB, RB,WR, TE, K, D
+  * Rate Trades
+       * User will be able to put in a player they have and input a player they are trading for. The app will give them feedback on the trade, show them the risks, and grade the trade on a letter grade
+  * Rate Add/Drop
+       * User will be able to put a player that they are either dropping from their team, a player they wish to add, or both. The app will give them feedback based on what action they do. (Similar to Rate Trades)
+  * Suggested Lineup
+       * The app will give advice on what players the user should start that week
 2.	Documentation 
+  * Project Proposal
+  * Pitch Presentation
+  * Project Plan Dcument
+  * Desgin Document 
+  * Weekly Updates
+  * Poster
 3.  Testing 
-
+  * Test View Player Stats
+       * Test to see if we can view player stats with the link
+  * Test Import Current Team
+       * See if the database can take the users players and pull the data for the players
+  * Test Rate Trades
+       * Test to see if our Machine Learning code gives accurate results
+  * Rate Add/Drop
+       * Test to see if our Machine Learning code gives accurate results
+  * Suggested Lineup
+       * Test to see if our Machine Learning code gives feedback
+  * Test Database Connection
+       * Test to see if database connects to web app
+  * Test Web App
+       Test to see if app can be viewed on different browsers
+4. Optional Features
+  * Rank Player vs. Opponent Team
+       * User will be able to see how one of their NFL players stacks up against the NFL Team they are facing. 
+  * League with Defenseive players
+       * Some Fantasy Leagues use individual defensive players. Hope to expand to where users who use either a offensive league or an offendive + defensive league can use webb app
+  * Random Facts
+       * Simple page where people can view random facts
 ## Plan
 
 1. Week of 5/20: Setup environment & create paper GUI model  
