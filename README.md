@@ -1,14 +1,14 @@
-# Moneyball 
+# Omaha 
 ## Description
 ### What?
 
-Moneyball  is a web application that will help users. It will allow users to see different statistics about different players. It will also give them strategies and helpful advice to build a Fantasy Football Team.
+Omaha  is a web application that will help users. It will allow users to see different statistics about different players. It will also give them strategies and helpful advice to build a Fantasy Football Team.
 ### Why?
 
-With Moneyball , we aim to assist people who have had trouble building a Fantasy Football team in the past. This app could be used for daily fantasy football player, weekly, or league fantasy football. If our program works correctly, it would give them an advantage over their competition and the potential to win their league. There are other apps that do similar things to ours but most of them are not extremely accurate at predicting the stats for all the players.
+With Omaha , we aim to assist people who have had trouble building a Fantasy Football team in the past. This app could be used for daily fantasy football player, weekly, or league fantasy football. If our program works correctly, it would give them an advantage over their competition and the potential to win their league. There are other apps that do similar things to ours but most of them are not extremely accurate at predicting the stats for all the players.
 ### How?
 
-Moneyball  will purely be a software product that runs on a web application. The app will be able to store data from the past seasons then recover the data efficiently. Our team will implement a full-stack application model, with front end and back end. The framework and tools we expect to use are:
+Omaha  will purely be a software product that runs on a web application. The app will be able to store data from the past seasons then recover the data efficiently. Our team will implement a full-stack application model, with front end and back end. The framework and tools we expect to use are:
 
 Front End
 * HTML, CSS
