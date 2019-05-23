@@ -15,7 +15,7 @@ Front End
 * JavaScript
 
 Back end
-* NodeJS or Django
+* NodeJS
 * Python
 * SQL
 
@@ -30,7 +30,20 @@ Miscellaneous
 ## Deliverables
 
 1.	Web app
-2.	Documentation and testing 
+  *View Player Stats
+  **User can view different player stats. There will be a link the user clicks on and a pop up will showing the player stats
+  *Import Current Team
+  **User can import their current Fantasy Team and the app will show the user stats of their players and give them feedback
+  *Offense Focused
+  **For now we will stick with offense Focused Fantasy Leagues. The site will contain posistions: QB, RB,WR, TE, K, D
+  *Rate Trades
+  **User will be able to put in a player they have and input a player they are trading for. The app will give them feedback on the trade, show them the risks, and grade the trade on a letter grade
+  *Rate Add/Drop
+  **User will be able to put a player that they are either dropping from their team, a player they wish to add, or both. The app will give them feedback based on what action they do. (Similar to Rate Trades)
+  *Suggested Lineup
+  **The app will give advice on what players the user should start that week
+2.	Documentation 
+3.  Testing 
 
 ## Plan
 
