@@ -6,17 +6,25 @@
 * Set up repository
 * Identify deliverables
 * Make plan
+* Design Entity Relation diagram for database - CHRIS
+* Get data for database (players stats, season stats, overall stats) - DHERIC
+* Import files to database - CHRIS
+* Instal Node.JS, Python 3, Anacando, XAMPP, Visual Studio Code, GIT - BOTH
+* ROugh draft of paper GUI Model
 
 ### What will you do this week?
-* Investigate different solutions
-* Prototype plugin server
+* IContinue working on inputing data into Database - CHRIS
+* Refine GUI Paper Model - DHERIC
+* Split pages of GUI MODEL and start designing pages on VS COde - BOTH
+      * Dheric's Pages - Home and transaction 
+      * Chris' Pages - Player Stat and Draft page
 
 ### Any blocking issues/challenges need to be addressed?
-* Get server to work on Linux machines, but not Windows
-* Client-server communication is flaky
+* Few bugs on getting data and inputing data into database but that was easily fixed
+
 
 ### Link to meeting notes
-* https://bit.ly/cheffer
+* https://drive.google.com/drive/folders/1JG3FuceRNaRDEIj0AGKC94UYUELYnGGr?usp=sharing
 
 ## Update #2
 
