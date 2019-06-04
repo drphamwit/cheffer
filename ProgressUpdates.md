@@ -59,6 +59,9 @@
 ### What did your team do last week?
 
 ### What will you do this week?
+* Revise design document based on the comments
+* Add Machine Learning piece to system architect and flow
+* cleanup the repo
 
 ### Any blocking issues/challenges need to be addressed?
 
