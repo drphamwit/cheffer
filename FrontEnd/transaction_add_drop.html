@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>transaction_add_drop</title>
+        <style>
+            body{
+                background: skyblue;
+                font-family: Verdana;
+                color: black;
+            }
+            h1{
+                font-size: 48px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            p{
+                font-size: 16px; 
+                color: #111
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            li{
+                float: left;
+                border-right:1px solid #bbbbbb
+            }
+            li a {
+                display:block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            li a:hover:not(.active){
+                background-color:#111
+            }
+            .active{
+                background-color: #4caf50
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div style="padding: 5px">
+            <ul>
+                <li><a  href="index.html">Omaha</a></li>
+                <li><a href="stats.html">Player Stats</a></li>
+                <li><a class="active" href="transaction.html">Transaction</a></li>
+                <li><a href="draft.html">Draft</a></li>
+            </ul>
+        </div>
+        
+        <div style="background-color: white; width:80%; float:none; padding: 5% 10% 5% 10%;">
+            <div style="background-color: whitesmoke; padding: 5% 5% 5% 5%">
+                <h1>Add & Drop</h1>
+                <h2>Directions</h2>
+                <p>Select how many people you want to add and select how many people you want to drop. Click submit and input the player names into the text boxes.</p>
+                <form>
+                    <div>
+                        <h3>How many players to Add</h3>
+                        <select>
+                                <option value="A0">0</option>
+                                <option value="A1">1</option>
+                                <option value="A2">2</option>
+                                <option value="A3">3</option>
+                                <option value="A4">4</option>
+                                <option value="A5">5</option>
+                                <option value="A6">6</option> 
+                        </select>
+                    </div>
+                    <div>
+                        <h3>How many players to Drop</h3>
+                        <select>
+                                <option value="D0">0</option>
+                                <option value="D1">1</option>
+                                <option value="D2">2</option>
+                                <option value="D3">3</option>
+                                <option value="D4">4</option>
+                                <option value="D5">5</option>
+                                <option value="D6">6</option> 
+                        </select>
+                    </div>
+                    
+            </form>
+            </div>         
+        </div>
+    </body>
+    <script>
+        function textbox(value){
+            for(var i=0; i<value;i++){
+
+            }
+        }
+        
+    </script>
+</html>

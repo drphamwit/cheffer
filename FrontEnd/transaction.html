@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>transaction</title>
+        <style>
+            body{
+                background: skyblue;
+                font-family: Verdana;
+                color: black;
+            }
+            h1{
+                font-size: 48px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            p{
+                font-size: 16px; 
+                color: #111
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            li{
+                float: left;
+                border-right:1px solid #bbbbbb
+            }
+            li a {
+                display:block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            li a:hover:not(.active){
+                background-color:#111
+            }
+            .active{
+                background-color: #4caf50
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div style="padding: 5px">
+            <ul>
+                <li><a  href="index.html">Omaha</a></li>
+                <li><a href="stats.html">Player Stats</a></li>
+                <li><a class="active" href="transaction.html">Transaction</a></li>
+                <li><a href="draft.html">Draft</a></li>
+            </ul>
+        </div>
+        
+        <div style="background-color: white; width:80%; float:none; padding: 5% 10% 5% 10%;">
+            <div style="background-color: whitesmoke; padding: 5% 5% 5% 5%">
+                <h1>Transaction</h1>
+                <h2>Directions</h2>
+                <p>Make a Transaction to recieve top-not feedback about whether your transaction is good or bad.</p>
+                <p><b>Add/Drop:</b>Find out the pros and cons of adding and dropping players from your team</p>
+                <p><b>Trade</b> Find out if you are getting the best out of your trade or if you are getting robbed</p>
+                <form style="background-color:brown; padding: 5% 5% 5% 5%">
+                    <select style=" width: 50%">
+                        <option value="ad">Add/Drop</option>
+                        <option value="t">Trade</option>
+                    </select>
+                    <button>Submit</button>
+                </form>
+            </div>         
+        </div>
+    </body>
+</html>
