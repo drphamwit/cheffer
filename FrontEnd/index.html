@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>homepage</title>
+        <style>
+            body{
+                background: skyblue;
+                font-family: Verdana;
+                color: black;
+            }
+            h1{
+                font-size: 48px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            p{
+                font-size: 16px; 
+                color: #111
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            li{
+                float: left;
+                border-right:1px solid #bbbbbb
+            }
+            li a {
+                display:block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            li a:hover:not(.active){
+                background-color:#111
+            }
+            .active{
+                background-color: #4caf50
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div style="padding: 5px">
+            <ul>
+                <li><a class="active" href="index.html">Omaha</a></li>
+                <li><a href="stats.html">Player Stats</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="draft.html">Draft</a></li>
+            </ul>
+        </div>
+        
+        <div style="background-color: white; width:80%; float:none; padding: 0% 10% 0% 10%;">
+            <div style="background-color: whitesmoke; padding: 2% 5% 2% 5%">
+                <h1>Welcome to Omaha</h1>
+                <h2>About</h2>
+                <p>
+                    Omaha helps you with stuff. Blah Blah Blah
+                </p>
+                <hr>
+                <h2>How To Play</h2>
+                <p>Blah Blah Blah</p>
+            </div>         
+        </div>
+    </body>
+</html>
